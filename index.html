@@ -1,0 +1,909 @@
+ <!-- Welcome to My Nature Study. This Nature Study will take time to build. We recommend you make repeated visits to the same location so that you might better understand all of the complexities of this space. To get started, you will need to fork the repository, or download the code from GitHub. If you want to easily publish your Nature Study on GitHub, I'll give you more information at the end of this document. But for right now, fork and download the website to a zip file (or clone it, if you know what that means). Go ahead and put these files in a secure folder where you will be able to find them and organize assets like images, pdfs, etcetera. You will also need a text editor like "brackets.io" or "atom.io" or "notepad-plus-plus.org." Open the style.css and index.html documents in the text editor and we can get started building our own Nature Study.--> 
+
+<!--BTW. You can leave these hidden HTML text fields be, or delete them. They are but road signs, absent from the larger design-->
+
+<!--First, we will need to do some work in the head of the document. The head organizes important information needed to explain to browsers how the website will work. You can keep the title of this HTML document, "My Nature Study," or change it to whatever you want it to be called. Your new text will appear in your browser tab-->
+
+<!DOCTYPE html>
+<html lang="en">   
+<head>
+  <title>My Nature Study</title>
+    
+    <!--this next section of code does important work to help different browsers understand what this page should look like on the different kinds of screens.--> 
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--this code tells the browser to link to the style.css file that controls the appearance of much of your content.--> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <!--and this code links to third party style sheets like bootstrap.--> 
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">  </script>
+    
+</head>
+    
+    <!--The body of the document houses the content that a user usually sees on a website. We'll be spending most of our time in this section.-->
+<body>
+    
+    
+    <!-- Developers refer to this division as a "Hero Block." Think carefully about the image you select and how it might serve a symbolic function in your nature study. Place a .jpg or .png in the same file folder as this project (hint: simplify the name to one word). You don't need to do anything on this html page, but you'll need to change the background image name on the style.css page to match your image asset. Next, change the other relevant information in this section."--> 
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:70px;">Nyjah's Nature Study</h1>
+    <p style="font-size:25px;">by Nyjah</p>
+  </div>
+</div>
+
+
+   <!--We'll begin our Nature Study by thinking about the mode of seeing and the medium of photography. Seeing is just one way we come to understand our world. And when we use tools for seeing, like telescopes and microscopes, we can sometimes see an object differently from how we might otherwise. Sometimes we can bring the object closer, sometimes we can better frame the object, and sometimes we can bring different elements into focus. In this exercise we are going to think about how we can frame not the whole of the tree, but the branch, not the boulder, but the moss on its northern-most side. We might be in a big place, but we can use the lens to direct our attention to something smaller. So what are the parts that make up the whole of this system?-->
+
+    <!--In this exercise we'll need to place our image assets in the image folder making sure each image is a .jpg or .png. Link the img src=to your image in the code. Then you'll need to scroll down to the corresponding modals at the bottom of this page to add the image there as well. You may add or delete code depending on the size of your collection.-->
+    
+<div class="container-fluid bg-w">    
+    <h1>Images-Parts of a Whole</h1><br>
+  <div class="row">
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+         <div class="hover">
+       <img src="img1.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+      
+    </div>
+       <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="ImDescribe Image Hereage" >     
+              </div>
+     </a>
+       
+    </div>
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+      
+    </div>
+      <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+     
+    </div>
+  </div>
+    <br>
+      <div class="row">
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+       
+    </div>
+       <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+       
+    </div>
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+    </div>
+      <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal8">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+    </div>
+          
+  </div> 
+    
+     <br>
+    <div class="row">
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal9">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+   
+    </div>
+       <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal10">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+   
+    </div>
+    <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal11">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+    
+    </div>
+      <div class="col-sm-3">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal12">
+         <div class="hover">
+       <img src="img2.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+        
+    </div>
+  </div>
+</div>
+    
+   
+    
+    <!--What did you learn about nature during this study? What did you learn about photography? Why present these images and not others?-->
+    
+    <div class="container-textcenter">    
+ <h3 class="margin">Notes on Images</h3>
+        <br>
+
+    <div class="row"> 
+    <div class="col-sm">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      
+    </div>
+    </div>
+    
+ 
+ <!--In this section we'd like you to gather words. This is a technique writers often employ before they start writing. Let's begin by collecting names of trees, plants, insects, flowers, birds, and other animals we see. What other words have you discovered?-->
+    
+       <div class="container-fluid bg-b">    
+     <h1 class="margin">Word Collections</h1> 
+           
+  <p>Reflect. What have you learned about the names of things and how they connect to the thing they name? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+     <br>
+    
+    <!--You'll notice that we use rows and columns to design grids into our webpage. This website runs on a bootstrap system that makes the total width of each grid 12 units. In this case, each of these rows has 3 columns that are 4 units wide, totaling 12.-->
+    
+        <div class="row">
+             <div class="col-sm-4">
+       <div class="box">
+           trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names * trees names 
+           </div>
+            </div>
+<div class="col-sm-4">
+    <div class="box">
+           plant names  * plant names * plant names  * plant names * plant names  * plant names * plant names  * plant names * plant names  * plant names * plant names  * plant names * plant names  * plant names 
+           </div>
+            </div>
+    <div class="col-sm-4">
+    <div class="box">
+           insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names * insect names *
+           </div>  
+           </div>
+           </div>
+           
+        
+            <div class="row">
+                <div class="col-sm-4">
+    <div class="box">
+           flower names * flower names *  flower names * flower names *  flower names *  flower names *  flower names *  flower names * flower names *  flower names * flower names *  flower names * flower names *  flower names *  
+           </div>
+               </div>
+               <div class="col-sm-4">
+       <div class="box">
+           bird names * bird names *  bird names * bird names *  bird names *  bird names *  bird names *  bird names * bird names *  bird names * bird names *  bird names * bird names *  bird names *  
+           </div> 
+               </div>
+<div class="col-sm-4">           
+     <div class="box">
+           animal names * animal names *  animal names * animal names *  animal names *  animal names *  animal names *  animal names * animal names *  animal names * animal names *  animal names * animal names *  animal names *  
+           </div>    
+               </div>
+               
+            </div>
+    </div>
+    
+     <!--In this section, you'll create a photo essay blending text and images. Use the text from the word bank you assembled above. Similarly, you may use your photos from above, or if you have time, take a new set of images for this phot essay.
+We recommend using a free, open source video editing program like Openshot (Beginner-https://www.openshot.org) or Shotcut (Advanced-https://shotcut.org). Mix the words from above with images you have taken into your own video presentation. -->
+    
+     <div class="container-fluid bg-w text-center">    
+  <h1>Photo Essay Mixing Image and Text</h1><br>
+  <div class="row">
+    <div class="col-sm-6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
+         <div class="hover">
+       <img src="img3.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+              
+     </a>
+        </div>
+        
+        <div class="col-sm-6">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+        
+    </div>
+    </div>
+    
+    
+     <!--It's time we switch to a different mode, to that of listening. Let's think about sounds we might be able to capture in our nature study. This could be wind blowing, birds chirping, footsteps trudging, water rolling...what do you hear that you can share with your audience. Often audio gets recorded as .wav files and it's then converted into mp4s which are much smaller and lower quality, but easier to embed in websites. Again, add or delete code as necessary.-->
+   
+<div class="container-fluid bg-b text-center">
+            
+  <h1>Nature Sounds</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+        <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+    
+            <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+                <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+          <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+              <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+    </div>
+      <div class="row">
+    <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+        <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+    
+            <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+                <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+          <div class="col-sm-4">
+        <h3>Title</h3>
+         <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio> 
+              <br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+    </div>
+  </div>
+    
+     <!--Podcasting is a great way for you to connect with others. You might think about interview a specialist in the ecology you are studying or someone who is, like you, a nature lover visiting this area. Prepare a list of questions, but feel free to go off script. Why is this space important to this individual? I introduce my students to audacity, a free open source audio editing program for cutting out "ums" and "mistakes." (https://www.audacityteam.org)-->
+    
+     <div class="container-fluid bg-w text-center">    
+  <h1>The Podcast Interview</h1><br>
+  <div class="row">
+    <div class="col-sm-6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+         <div class="hover">
+       <img src="img4.jpg" class="img-responsive" style="width:100%"alt="Image" >     
+              </div>
+              
+     </a>
+        </div>
+        
+        <div class="col-sm-6">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+        
+    </div>
+    </div>
+   
+    
+    
+    
+  <!--So far we've been focusing on looking and listening. Let's build on what we have already learned about photography and sound ...and combining these modes in thinking about elements of filmmaking. To get started with filmmaking, we're going to shoot some B-roll. B-roll is the film you shoot that adds context to a larger work. There is an old saying that you can never have enough B-roll. -->
+       
+    
+    <div class="container-fluid bg-b text-center">    
+  <h1>B-roll</h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+        <h3>Title</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal15">
+         <div class="hover">
+       <img src="img5.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="col-sm-4">
+        <h3>Title</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal16">
+         <div class="hover">
+       <img src="img5.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+     <div class="col-sm-4">
+        <h3>Title</h3>
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal17">
+         <div class="hover">
+       <img src="img5.jpg" class="img-responsive" style="width:100%" alt="Describe Image Here" >     
+              </div>
+     </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </div>
+</div>
+ 
+ <!--Our culminating project is the Nature Study Documentary. For this assignment you use everything you have learned to make a short film about your Nature Study. You can combine, text, interviews, B-roll, sounds into one project. Rather than presenting something wholly, exploratory, we could try arranging our presentation using one of the arrangement methods offered at the end of this page-->   
+  
+
+ <div class="container-fluid bg-w text-center">    
+  <h1>The Nature Study Documentary</h1><br>
+  <div class="row">
+    <div class="col-sm-6">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal18">
+         <div class="hover">
+       <img src="img6.jpg" class="img-responsive" style="width:100%"alt="Describe Image Here" >     
+              </div>
+              
+     </a>
+        </div>
+        
+        <div class="col-sm-6">
+        <h3>Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+        
+    </div>
+    </div>
+     
+      
+    
+
+     <br>
+     <br> <br> <br> <br> <br> <br> <br>
+    
+    <div class="container-fluid bg-b text-center" >  
+ <img src="img7.jpg" class="center-large-image" alt="Gathering Herbs in a Finnish Field" style="max-width:25%;max-height:25%;">
+ 
+    
+    
+<p>generated by <a href="https://open-fuego.github.io/Open-Fuego-Coding-Tools/">Open Fuego</a></p>
+  <p><em>Why make a spark when you can light a fire?</em></p>   </div>
+
+<br>
+<br>
+    
+    <!-- Stops video/audio from playing on modal close -->
+    <script>
+         $(function(){
+    $("body").on('hidden.bs.modal', function (e) {
+    var $iframes = $(e.target).find("iframe");
+    $iframes.each(function(index, iframe){
+      $(iframe).attr("src", $(iframe).attr("src"));
+    });
+  });
+});
+</script>
+    
+   </body>
+     </html>
+
+    <!--Looking to publish this in GitHub? Here is what you need to do. Go back to your forked repository in GitHub or create a new repository. Click upload, and select/drag and drop all of you files... all of them, index.html. style.html, readme, and your image assets. Click commit. This will replace/add all essential files to make your Nature Study. Great, now your Electrate Fuego files are where it needs to be. Now go to your repository "settings." Scroll down to "GitHub Pages." Here you will change "source" from "none" to "master branch." This will publish your Nature Study online. Refresh and scroll down to find your URL. Copy and Paste. 'It's time to spread your love of nature!-->
+    
+    
+    <!--Down here is where we keep all over our modal links. You will need to replace these placeholders with relevant content.-->    
+    
+    
+    <!-- Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img1.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+   
+      
+        <!-- Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 7 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 8 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+        <!-- Modal 9 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-xl">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+             <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+           <!-- Modal 10 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+           <!-- Modal 11 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">               
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!-- Modal 12 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <img class="img-responsive" src="img2.jpg" style="width:100%" alt="Describe Image Here">
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!-- Modal 13 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <!-- Modal 14 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                    <audio controls>
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+                  
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+      <!-- Modal 15 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <!-- Modal 16 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <!-- Modal 17 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+       <!-- Modal 18 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
+       <div class="modal-dialog-lg">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times mr-1"></i>
+                  Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+
+ 
